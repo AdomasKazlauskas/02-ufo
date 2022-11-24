@@ -72,7 +72,7 @@ Adomas Kazlauskas: [Github](https://github.com/AdomasKazlauskas)
 
 ## ⚠️ License
 
-Distributed under the MIT License. See LICENSE.txt for more information.
+Distributed under the [MIT License](https://github.com/AdomasKazlauskas/02-ufo/blob/master/LICENSE). See LICENSE.txt for more information.
 
 ## 🔗 Other resources
 
