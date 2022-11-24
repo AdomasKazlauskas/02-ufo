@@ -10,13 +10,13 @@
     </head>
 
     <body style="background-color:blue;">
-        <main style="width: 50%; margin-top: 150px; margin-left: 25%;">
-            <div>
-                <h1 style="color:white; font-weight: 400;">404</h1>
-                <p style="color:white; text-transform: capitalize;">Daug nuobodaus teksto</p>
-                <a href="https://chess.com" style="color:white;">Eik pazaisi</a>
+        <main style="display:inline-block; width: 50%; margin-top: 170px; margin-left: 25%;">
+            <div style=" width: 30%; float: left; margin-top: 100;"> 
+                <h1 style="color:white; font-weight: 400; font-size: 80px; margin: 0;">404</h1>
+                <p style="color:white; font-size: 30px; text-transform: capitalize; margin: 0; margin-bottom: 20px;">Page not found</p>
+                <a href="https://chess.com" style="color:white;">Go to home page</a>
             </div>
-            <img src="./img/UFO.jpg" alt="UFO lekste">
+            <img src="./img/UFO.jpg" alt="UFO lekste" style="width: 60%; float: right;">
         </main>
     </body>
 
@@ -42,4 +42,14 @@ Elementu stumdymas tarpusavyje:
 margin: 100px;  visomis kryptimis aplink si elementa
 margin-top: 100px; tik virsus
 
+Elementu atvaizdavimas:
+display: block;   visi block elementai krenta vienas po kitu
+display: inline;    elementas elgiasi kaip zodis tekste
+display/; inline-block;     jeigu elementai telpa i viena eilute - suguls; 
+                            jeigu netelpa - sekantis krenta i nauja eilute;
+                            jei jame yra daugiau turinio nei tilptu pas "teva", 
+                            tai jo max plotis yra 100%
+Priverstinis elementu sustumimas pasirinkta kryptimi:
+float: left;
+float: right;
 -->
